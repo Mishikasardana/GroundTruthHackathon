@@ -1,0 +1,9 @@
+streamlit
+flask
+pillow
+scikit-learn
+ollama
+requests
+pytesseract
+opencv-python
+colorthief

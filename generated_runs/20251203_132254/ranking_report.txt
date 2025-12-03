@@ -1,0 +1,14 @@
+Creative Engagement Ranking (Predicted):
+
+1. ad_4.png → Score: 93
+2. ad_12.png → Score: 96
+3. ad_7.png → Score: 92
+4. ad_9.png → Score: 97
+5. ad_1.png → Score: 82
+6. ad_10.png → Score: 82
+7. ad_2.png → Score: 86
+8. ad_3.png → Score: 75
+9. ad_11.png → Score: 75
+10. ad_8.png → Score: 78
+11. ad_6.png → Score: 73
+12. ad_5.png → Score: 72
