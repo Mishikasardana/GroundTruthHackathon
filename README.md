@@ -68,24 +68,14 @@ This was built as a scalable, robust creative automation studio, not just a simp
 
 ### System Workflow
 #### Stage	Implementation
-
-Language: Python 3.11
-
-Image Generation: Stable Diffusion XL (local via AUTOMATIC1111 API or diffusers library)
-
-LLM (Captions & Narratives): Llama 3.2 3B (local via Ollama) , Mistral 7B / Gemma 2 9B / Falcon 7B optional (all free open-weight models)
-
-Engagement Scoring & Ranking: LLM-simulated scoring + Scikit-Learn (if extended, Isolation Forest for future anomaly/style outlier detection)
-
-Image Processing & Logo Overlay: Pillow
-
-Social Media Asset Formatting: Pillow (resizing for Instagram post/reel, LinkedIn banner, Pinterest pin, Poster 9:16)
-
-Metadata Storage: JSON (generated per creative)
-
-Packaging & Export: Python zipfile module
-
-Deployment: Streamlit Cloud / Docker + Docker Compose (optional containerization for production demo)
+Asset Ingestion	Logo + product uploaded via React UI
+Prompt Engine	Modular prompt generator ensures creative variation
+Creative Generation	AI image models generate 10+ variants
+Caption Generation	Free local LLM writes marketing copy
+Engagement Scoring	AI simulates engagement and ranks results
+Format Resizer	Images auto-converted for social platforms
+Packaging	All outputs bundled into ZIP via Python
+Free/Open-Weight LLMs Used
 
 #### Captions & insights are generated using free local models:
 
@@ -104,15 +94,24 @@ Stable Diffusion XL
 (All models run locally with no paid API dependency.)
 
 ## 4. Tech Stack
-Category	Technology
-Language	Python 3.11
-Frontend UI	React + Custom CSS
-Image Generation	Stable Diffusion XL
-Text AI (Captions & Narratives)	Llama 3.2 3B, Mistral 7B, Falcon 7B, Gemma 2 9B
-Engagement Scoring	Free local LLM engagement simulation
-Social Media Formatting	Pillow image resizing
-Packaging & Export	Python ZIP utilities
-Deployment	Docker
+
+Language: Python 3.11
+
+Image Generation: Stable Diffusion XL (local via AUTOMATIC1111 API or diffusers library)
+
+LLM (Captions & Narratives): Llama 3.2 3B (local via Ollama) , Mistral 7B / Gemma 2 9B / Falcon 7B optional (all free open-weight models)
+
+Engagement Scoring & Ranking: LLM-simulated scoring + Scikit-Learn (if extended, Isolation Forest for future anomaly/style outlier detection)
+
+Image Processing & Logo Overlay: Pillow
+
+Social Media Asset Formatting: Pillow (resizing for Instagram post/reel, LinkedIn banner, Pinterest pin, Poster 9:16)
+
+Metadata Storage: JSON (generated per creative)
+
+Packaging & Export: Python zipfile module
+
+Deployment: Streamlit Cloud / Docker + Docker Compose (optional containerization for production demo)
 ## 5. Challenges & Learnings
 ### Challenge 1: Ensuring Visual Uniqueness
 
