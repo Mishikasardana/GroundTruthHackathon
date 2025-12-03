@@ -68,6 +68,7 @@ This was built as a scalable, robust creative automation studio, not just a simp
 
 ### System Workflow
 #### Stage	Implementation
+
 Language: Python 3.11
 
 Image Generation: Stable Diffusion XL (local via AUTOMATIC1111 API or diffusers library)
