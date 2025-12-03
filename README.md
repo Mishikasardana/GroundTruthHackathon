@@ -1,9 +1,9 @@
 # GroundTruthHackathon
-# 🚀 AdForge Studio: The AI Creative Engine
+# AdForge Studio: The AI Creative Engine H-003
 
 Tagline: A Generative AI–powered creative studio that converts brand logos and product images into 10+ unique, high-resolution ad creatives, tailored captions, engagement rankings, and platform-optimized assets—packaged into a production-ready ZIP in under 30 seconds.
 
-1. The Problem (Real World Scenario)
+## 1. The Problem (Real World Scenario)
 
 Context:
 In the marketing and AdTech world, businesses spend weeks creating creative variations of the same product image and hours rewriting captions for different audiences.
@@ -18,17 +18,17 @@ No real feedback on what might perform best
 
 Social platform formats require extra editing time
 
-My Solution:
+## My Solution:
 I built AdForge Studio, an Auto-Creative Engine that eliminates manual effort.
 Just upload your brand logo + product image, select your creative preferences—and within 30 seconds, you get:
 
-✅ 10+ visually distinct, high-resolution ad creatives
-✅ Personalized captions written uniquely for target audiences
-✅ AI-generated creative ranking by predicted engagement
-✅ Auto-formatted assets for multiple social platforms
-✅ Everything bundled into one downloadable ZIP
+10+ visually distinct, high-resolution ad creatives
+Personalized captions written uniquely for target audiences
+AI-generated creative ranking by predicted engagement
+Auto-formatted assets for multiple social platforms
+Everything bundled into one downloadable ZIP
 
-2. Expected End Result
+## 2. Expected End Result
 For the User
 
 Input: Upload
@@ -62,12 +62,12 @@ Pinterest pins
 
 Digital posters
 
-3. Technical Approach
+## 3. Technical Approach
 
 This was built as a scalable, robust creative automation studio, not just a simple script.
 
-System Workflow
-Stage	Implementation
+### System Workflow
+#### Stage	Implementation
 Asset Ingestion	Logo + product uploaded via React UI
 Prompt Engine	Modular prompt generator ensures creative variation
 Creative Generation	AI image models generate 10+ variants
@@ -77,7 +77,7 @@ Format Resizer	Images auto-converted for social platforms
 Packaging	All outputs bundled into ZIP via Python
 Free/Open-Weight LLMs Used
 
-Captions & insights are generated using free local models:
+#### Captions & insights are generated using free local models:
 
 Llama 3.2 3B
 
@@ -93,7 +93,7 @@ Stable Diffusion XL
 
 (All models run locally with no paid API dependency.)
 
-4. Tech Stack
+## 4. Tech Stack
 Category	Technology
 Language	Python 3.11
 Frontend UI	React + Custom CSS
@@ -103,31 +103,31 @@ Engagement Scoring	Free local LLM engagement simulation
 Social Media Formatting	Pillow image resizing
 Packaging & Export	Python ZIP utilities
 Deployment	Docker
-5. Challenges & Learnings
-Challenge 1: Ensuring Visual Uniqueness
+## 5. Challenges & Learnings
+### Challenge 1: Ensuring Visual Uniqueness
 
-Issue: Ads looked too similar initially.
+#### Issue: Ads looked too similar initially.
 
-Learning & Fix:
+#### Learning & Fix:
 I designed a prompt variation engine that forces AI to change:
 
 layout, lighting, typography, background and composition
 while preserving logo + product identity.
 
-Challenge 2: Caption Repetition
+### Challenge 2: Caption Repetition
 
-Issue: Captions lacked tone variation across scale.
+#### Issue: Captions lacked tone variation across scale.
 
-Solution:
+#### Solution:
 Implemented multi-tone prompt templates + audience-aware hooks so every caption feels fresh, emotional and target-aligned.
 
-Challenge 3: Multi-Platform Formatting
+### Challenge 3: Multi-Platform Formatting
 
-Learning:
+#### Learning:
 Automated creative resizing for all popular social media and poster formats instead of making users manually edit dimensions.
 
-6. Added Innovation Modules (7 Extra Features)
-Extra Feature	Description
+## 6. Added Innovation Modules (7 Extra Features)
+### Extra Feature	Description
 1. AI Style Selector	Choose themes like Minimal, Neon, Luxury, Vintage, 3D, Hand-drawn, Futuristic, Watercolor
 2. Multi-Tone Caption Engine	Generate captions that sound Funny, Emotional, Luxury, Gen Z, Elegant, or Professional
 3. Audience Targeting	Copies adapt automatically for Parents, Gamers, Athletes, Gen Z, or Working Professionals
@@ -138,24 +138,26 @@ Extra Feature	Description
 
 These 7 modules make the system feel like a true Marketing Automation Product, adding personalization and usability for real businesses.
 
-7. How to Run
-# 1. Clone Repository
-git clone https://github.com/username/adforge-studio.git
+## 7. How to Run
+### 1. Clone Repository
+git clone https://github.com/Mishikasardana/GroundTruthHackathon.git
 
-# 2. Install Backend Dependencies
+### 2. Install Backend Dependencies
 pip install -r requirements.txt
 
-# 3. Start Backend
+### 3. Start Backend
 python app.py
 
-# 4. Start Frontend
+### 4. Start Frontend
 cd frontend
 npm install
 npm start
 
-# 5. Generate Creatives
+### 5. Generate Creatives
 Upload your logo + product, configure your preferences, and download ZIP
 
-🎯 Summary
+## Summary
 
 AdForge Studio is an end-to-end Generative AI Creative Studio built to solve real marketing inefficiencies, offering creative control, personalization, ranking, and ready-to-post assets, powered 100% using free and open-weight AI models.
+
+
